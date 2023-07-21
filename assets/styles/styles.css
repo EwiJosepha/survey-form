@@ -1,3 +1,87 @@
-* {
-  
+body {
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient( rgba(55, 58, 155, 0.5), rgba(55, 57, 155, 0.4)), url(../images/background.jpg);
+  background-repeat: no-repeat ;
+  z-index: -1;
+  background-size: cover;
+  top:0;
+  left: 0;
+  height:100%;
+  width: 100%;
+  margin: 0 0;
+ }
+
+#title {
+  color: #fff;
 }
+
+#title {
+  text-align: center;
+}
+
+#subtit {
+  text-align: center;
+  color: #fff;
+}
+
+label {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+.container {
+  background-color: #0f0032aa;
+  width: 700px;
+  height: 1200px;
+  margin: 50px auto;
+  padding: 20px ;
+  border-radius: 5px;
+}
+
+.formgroup {
+  width: 700px;
+}
+
+.formgroup input {
+  width: 100%;
+  height: 40px;
+
+}
+
+.pass {
+  text-align: left;
+
+}
+
+.option .select {
+  width: 100%;
+  height: 40px;
+}
+
+ .feature .Selectfeature {
+  width: 100%;
+  height: 40px;
+}
+
+.forsuggestions {
+  width: 58vw;
+  height: 100px;
+  margin: 20px 5px;
+}
+
+#submit {
+  background-color: rgba(0, 180, 70, 0.75);
+  color: #fff;
+  width: 54vw;
+  height: 50px;
+  margin: 20px 5px;
+  border: 0vw;
+}
+
+    
+
+    
