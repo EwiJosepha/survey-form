@@ -1,7 +1,7 @@
 body {
   text-align: left;
   font-family: sans-serif;
-  background-image: linear-gradient(#373a9b80, #37399b66), url(../images/background.jpg);
+  background-image: linear-gradient(#373a9b80, #37399b66), url("../images/background.jpg");
   background-repeat: no-repeat;
   z-index: -1;
   background-size: cover;
@@ -13,21 +13,21 @@ body {
 }
 
 #title {
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 
 #subtit {
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 label {
-  color: #ffffff;
+  color: #fff;
 }
 
 p {
-  color: #ffffff;
+  color: #fff;
 }
 
 .container {
@@ -57,7 +57,7 @@ p {
   height: 40px;
 }
 
- .feature .Selectfeature {
+.feature , .Selectfeature {
   width: 100%;
   height: 40px;
 }
@@ -70,9 +70,9 @@ p {
 
 #submit {
   background-color: #00b446bf;
-  color: #ffffff;
+  color: #fff;
   width: 100%;
   height: 50px;
   margin: 20px 5px;
-  border: 0vw;
+  border: 0; 
 }
