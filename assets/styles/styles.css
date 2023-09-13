@@ -1,3 +1,78 @@
-* {
-  
+body {
+  text-align: left;
+  font-family: sans-serif;
+  background-image: linear-gradient(#373a9b80, #37399b66), url("../images/background.jpg");
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#title {
+  color: #fff;
+  text-align: center;
+}
+
+#subtit {
+  text-align: center;
+  color: #fff;
+}
+
+label {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+.container {
+  background-color: #0f0032aa;
+  width: 700px;
+  height: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.formgroup {
+  width: 700px;
+}
+
+.formgroup input {
+  width: 100%;
+  height: 40px;
+}
+
+.pass {
+  text-align: left;
+}
+
+.option .select {
+  width: 100%;
+  height: 40px;
+}
+
+.selectfeature {
+  width: 100%;
+  height: 40px;
+}
+
+.forsuggestions {
+  width: 58vw;
+  height: 100px;
+  margin: 20px 5px;
+}
+
+#submit {
+  background-color: #00b446bf;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+  margin: 20px 5px;
+  border: 0;
 }
